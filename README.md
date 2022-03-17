@@ -11,6 +11,8 @@
 
 安装localtunnel包可以映射到外网，命令：lt --port 3000
 
+node文件夹太多，没有上传
+
 四个用户名：nadal,federer,djokovic,lhl
 群聊密码：vamos rafa
 
