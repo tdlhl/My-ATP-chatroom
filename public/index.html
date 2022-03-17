@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>lhl's ATP🎾 Chatroom</title>
+		<link rel="shortcut icon" href="./ATP_Tennis.png">
+		<link rel="stylesheet" type="text/css" href="./index.css"/>
+		<script src="https://gw.alipayobjects.com/os/lib/socket.io-client/4.3.2/dist/socket.io.js"></script>
+	</head>
+	
+	<body id="root">
+		<div id="login">
+			<p class="login-title">Welcome to lhl's ATP🎾 Chatroom </p>
+			<div class="content userNameBox">
+				<span>用户名</span>
+				<input id="userName"  placeholder="please enter your username" />
+			</div>
+			<div id="passwordBox">
+				<span>密码</span>
+				<input id="password" type="password" placeholder="please enter your password" />
+			</div>
+			<div class="login-button" onclick="handleLogin()"><p style="text-align:center;">登录</p></div>
+		</div>
+		
+		<div id="chatroom">
+			<div class="contact">
+				<div class="contact-name">
+					在线成员列表
+				</div>
+				<ul class="contact-list">
+					<!-- 使用server返回的userlist更新 -->
+				</ul>
+			</div>
+			<div class="main">
+				<div class="header">
+					ATP🎾 Chatroom
+				</div>
+				<div class="list">
+
+				</div>
+				<div class="footer">
+					<textarea id="sendInput" name="text"></textarea>
+					<button id="send">发送</button>
+				</div>
+			</div>
+		</div>
+		<script src="index.js"></script>
+	</body>
+</html>
