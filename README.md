@@ -17,6 +17,9 @@
 
 ![image](https://user-images.githubusercontent.com/81509444/159897030-92921da8-59b5-43fe-85cb-082371c4e390.png)
 
+控制台会输出连接信息
+![image](https://user-images.githubusercontent.com/81509444/159897563-979e128d-1e2d-492a-b33a-d550f1da069d.png)
+
 
 node文件夹太多，没有上传
 传了整个项目的压缩包在另一个branch”master"里
