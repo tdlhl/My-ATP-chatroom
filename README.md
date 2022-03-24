@@ -8,9 +8,11 @@
 使用nodejs，需要安装koa,socket等包
 可以运行在本地服务器上，命令：node server.js，
 端口设置的3000，本地访问：http://127.0.0.1:3000
+
 ![image](https://user-images.githubusercontent.com/81509444/159896131-a1bc8488-1c67-4478-b342-dd02425d8f0e.png)
 
 安装localtunnel包可以映射到外网，命令：lt --port 3000
+
 ![image](https://user-images.githubusercontent.com/81509444/159896464-44ca5ce9-0771-4d5d-b3c4-4538b8265b81.png)
 
 ![image](https://user-images.githubusercontent.com/81509444/159896876-3b5b2558-df06-4383-94c1-ed40ecf56fa9.png)
@@ -18,6 +20,7 @@
 ![image](https://user-images.githubusercontent.com/81509444/159897030-92921da8-59b5-43fe-85cb-082371c4e390.png)
 
 控制台会输出连接信息
+
 ![image](https://user-images.githubusercontent.com/81509444/159897563-979e128d-1e2d-492a-b33a-d550f1da069d.png)
 
 
